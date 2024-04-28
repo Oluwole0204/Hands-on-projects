@@ -1,0 +1,8 @@
+for item in 'Python':
+    print(item)
+for item in ['James','John','Mary','Philip','Peter']:
+    print(item)
+for item in [1,2,3,4,5]:
+    print(item)
+for item in range (6):
+    print(item)
