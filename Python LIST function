@@ -1,0 +1,10 @@
+names = ['John','Bob','Mosh','Sarah','Mary']
+print(names)
+names = ['John','Bob','Mosh','Sarah','Mary']
+print(names [2:4])
+numbers = [3,6,2,5,7,8]
+max = numbers [0]
+for number in numbers:
+    if number > max:
+        max = number
+print(max)
