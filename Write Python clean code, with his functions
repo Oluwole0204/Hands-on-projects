@@ -1,0 +1,45 @@
+print("Hello, world")
+print(22)
+print(5 + 4)
+Country = 'Brazil'
+age = 30
+print(Country)
+print(age)
+print(10 ** 3 == 1000)
+print(10 * 3 == 40)
+print(10 * 3 == age)
+if age >= 18:
+    print('adult')
+else:
+    print('minor')
+for number in [1, 2, 3, 4, 5]:
+    print(number)
+my_list = [3, 6, 9]
+for x in my_list:
+    print(x/3)
+def is_adult(age):
+    if age >= 18:
+        print('adult')
+    else:
+        print('minor')
+magic = 'Hocus Pocus'
+print(type(magic))
+magic = magic.swapcase()
+magic
+magic.replace('cus', 'key')
+print(magic)
+print(2* (3 + 4))
+print(1 + 3.5)
+print("hello" + "world")
+print('2 + 2 = ' + str(2 +2))
+name = "Martin"
+number = len(name) * 9
+print("Hello"+ name + ", Your lucky number is " + str (number))
+name = "Adam"
+number = len(name)*9
+print("Hello" + name + ", Your lucky number is " + str(number))
+def lucky_number(name):
+    number = len(name)*9
+    print("Hello" + name + ", Your lucky number is " + (number))
+    lucky_number("Martin")
+    lucky_number("Adam")
